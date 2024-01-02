@@ -1,0 +1,33 @@
+.about-us-container {
+  width: 70%;
+  padding: 0 15%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.about-text {
+  margin-bottom: 20px;
+}
+
+.contact-us-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-bottom: 40px;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #c2b599;
+  border: 0.5px solid #c2b599;
+  background-color: transparent;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact-us-button:hover {
+  background-color: rgba(194, 181, 153, 0.3);
+  color: #c2b599;
+  cursor: pointer;
+}
+
+img {
+  max-width: 90%;
+  height: auto;
+}

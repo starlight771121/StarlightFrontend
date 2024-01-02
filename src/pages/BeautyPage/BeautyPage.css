@@ -1,0 +1,5 @@
+.our-beauty-container {
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+}

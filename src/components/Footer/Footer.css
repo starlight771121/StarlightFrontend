@@ -1,0 +1,79 @@
+.footer {
+  width: 100%;
+}
+
+.contact-wrapper {
+  width: 100%;
+}
+.left-content {
+  width: 35%;
+  padding: 0 0 0 10%;
+}
+
+.contact-info {
+  margin-left: 10%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  color: black;
+}
+
+.contact-lines{
+  font-size: 20px;
+  color: #c2b599;
+}
+
+.footer-columns {
+  display: flex;
+  width: 100%;
+}
+.right-content {
+  width: 45%;
+  padding: 0 10% 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.qr-code-wrapper {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.qr-code {
+  /* display: flex;
+  justify-content: center; */
+  width: 40%;
+  max-width: 200px;
+  height: auto;
+}
+
+.copyright {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  color: white;
+  padding: 40px 0;
+}
+
+@media (max-width: 768px) {
+  .footer-columns {
+    flex-direction: column;
+  }
+
+  .left-content,
+  .right-content {
+    width: 80%;
+    padding: 0 10%;
+  }
+
+  .contact-lines {
+    font-size: 17px;
+  }
+
+  .right-content {
+    margin-top: 12px; /* Optional: Add some spacing between the columns */
+  }
+}

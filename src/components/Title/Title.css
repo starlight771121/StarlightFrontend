@@ -1,0 +1,24 @@
+.title-container {
+  text-align: center;
+  align-items: center;
+  margin-bottom: 0 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.title-wrapper {
+  width: 80%;
+}
+
+.title {
+  color: #333; /* Change the color of your title as needed */
+  padding: 10px;
+}
+
+@media (max-width: 768px) {
+  .divider {
+    font-size: 30px;
+  }
+}
+
+
