@@ -28,7 +28,7 @@ const Navbar = () => {
   return (
     <div className='navbar-container' style={{ backgroundColor: '#f9e6df' }}>
       <div className='navbar'>
-        <img className='logo' src={`${s3BucketUrl}assets/logo.png`} alt='Logo'/>
+        <img className='logo' src='logo.png' alt='Logo'/>
         <div className='tabs'>
           <NavLink to='/' className={`page-link${activePage === '/' ? ' active-link' : ''}`} onClick={() => handleTabClick('/')}>主页</NavLink>
           <NavLink to='/aboutus' className={`page-link${activePage === '/aboutus' ? ' active-link' : ''}`} onClick={() => handleTabClick('/aboutus')}>关于我们</NavLink>
