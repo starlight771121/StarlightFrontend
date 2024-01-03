@@ -57,6 +57,9 @@
   margin: 20px 0;
 }
 
+.item-display-image{
+  width:100%;
+}
 
 .item-display button {
   display: inline-block;
