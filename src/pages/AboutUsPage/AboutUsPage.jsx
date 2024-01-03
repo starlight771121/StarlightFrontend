@@ -25,7 +25,7 @@ const AboutUsPage = () => {
       <button className='contact-us-button' onClick={()=> handleContactUs()}>Contact Us</button>
 
       <div className='image-container'>
-        <img src={`${s3BucketUrl}assets/night-star-background.jpg`} alt='Company Image'/>
+        <img src='cover.jpg' alt='Company Image'/>
       </div>
     </div>
     <Title text='诚邀您的加入'/>

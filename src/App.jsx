@@ -4,7 +4,6 @@ import { PageProvider } from './utils/PageContext';
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 import Home from './pages/Home/Home'
-import ProductPage from './pages/ProductPage/ProductPage';
 import AboutUsPage from './pages/AboutUsPage/AboutUsPage';
 import BeautyPage from './pages/BeautyPage/BeautyPage';
 import IndividualPage from './pages/IndividualPage/IndividualPage';

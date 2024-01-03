@@ -53,7 +53,7 @@ const Home = () => {
     <div className="home-page">
       <div className="front-cover">
         <div className="content">
-          <img className='cover-logo' src={`${s3BucketUrl}assets/logo.png`} alt='Logo'/>
+          <img className='cover-logo' src='logo.png' alt='Logo'/>
           <p className='title' >StarLightADL</p>
           <p className='subtitle'>Adelaide Finest Escort</p>
           <div className="cta-button" onClick={() => handleOurBeautyClick()}>Our Beauty</div>
